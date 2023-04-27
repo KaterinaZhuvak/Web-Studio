@@ -1,76 +1,87 @@
 <!DOCTYPE html>
-<html lang="en"
-
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-   </head>
+  </head>
   <body>
-
-    <header class="header">
+    <header class="flex-box">
       <h2 class="header_logo1"><span>Web</span>Studio</h2>
       <nav class="navigation">
-        <ul class="header_links">
-          <li class="header_link">
-            <a href="/">Студія</a>
-          </li>
-          <li class="header_link">
-            <a href="/">Портфоліо</a>
-          </li>
-          
-          <li class="header_link">
-            <a href="/">Контакти</a>
-          </li>
-         <div header_contacts>
-            <ul>
-         <li class="contact_link">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="contact_link">
-                <a href="tel:+380961111111">+380961111111</a>
-        </li>
-            </ul>
-         </div>
+        <div class="header_links">
+          <ul class="ul_links">
+            <li class="header_link">
+              <a href="/">Студія</a>
+            </li>
+            <li class="header_link">
+              <a href="/">Портфоліо</a>
+            </li>
+            <li class="header_link">
+              <a href="/">Контакти</a>
+            </li>
+        </div>
+        <div class="header_contacts">
+          <ul>
+            <li class="contact_link">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contact_link">
+              <a href="tel:+380961111111">+380961111111</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
-  <section class="promo">
-            <h1>ЕФЕКТИВНІ РІШЕННЯ <br> ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button>Замовити послугу</button>
-        </section>
+    <section class="promo">
+      <h1>
+        ЕФЕКТИВНІ РІШЕННЯ <br/>
+        ДЛЯ ВАШОГО БІЗНЕСУ
+      </h1>
+      <button>Замовити послугу</button>
+    </section>
 
-        <section class="about">
-           <div>
-            <div class="flex-box-about"> 
-                <ul>
-                <li>
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure.</p>
-                </li>
- 
-                <li>
-                 <h3>ПУНКТУАЛЬНІСТЬ</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure</p>
-             </li>
- 
-             <li>
-                 <h3>ПЛАНУВАННЯ</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure</p>
-             </li>
- 
-             <li>
-                 <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure</p>
- 
-             </li>
-             </ul></div>
-           </div>
-        </section>
+    <section class="about">
+      <div class="blocks-about">
+        <ul class="block-about">
+          <li class="block-about">
+            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p>
+              Ідейні міркування, і навіть початок <br> повсякденної роботи з формування <br>s позиції.
+            </p>
+          </li>
+
+          <li class="block-about">
+            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <p>
+              Завдання організації, особливо рамки <br> і місце навчання кадрів тягне у себе.
+            </p>
+          </li>
+
+          <li class="block-about">
+            <h3>ПЛАНУВАННЯ</h3>
+            <p>
+              Так само консультація з широким <br> активом значною мірою зумовлює.
+            </p>
+          </li>
+
+          <li class="block-about">
+            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p>
+              Значимість цих проблем настільки <br> очевидна, що реалізація планових <br> завдань.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <section class="card">
       <h2>Наша команда</h2>
