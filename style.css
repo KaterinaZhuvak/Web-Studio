@@ -242,6 +242,8 @@ span {
 p {
   display: flex;
   justify-content: space-between;
-  width: 1170px;
-  align-items:center;
-} 
+  width: 160px;
+  flex-direction: row;
+}
+
+
