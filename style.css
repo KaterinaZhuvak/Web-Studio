@@ -1,13 +1,17 @@
-.conteiner{
-  display: flex;
+.container{
   width: 1140px;
   margin: 0 auto;
 }
 .header_block {
   display: flex;
   justify-content: space-between;
+  width: 520px;
   align-items:center;
-  flex-direction: rows;
+}
+.header_wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
 }
 .header_left {
   display: flex;
@@ -49,25 +53,14 @@
   /* identical to box height */
 
   letter-spacing: 0.03em;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  width: 145px;
+
 }
 .header_logo1 span {
   color: #2196f3;
   width: 145px;
   height: 31px;
 }
-.header_links  {
-  padding-inline: 10px;
-  display:flex;
-  flex-direction: row;
-  justify-content:space-between;
-  width: 281px;
-  align-items: center;
 
-}
 .header_link {
   list-style-type: none;
 }
@@ -99,7 +92,8 @@
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 150px;
+  line-height: 60px;
+  margin: 0;
   /* or 136% */
 
   text-align: center;
@@ -107,9 +101,11 @@
   text-transform: uppercase;
 
   color: #ffffff;
+  margin: 29.480px 0 ;
 }
 .promo {
     background-color: #2F303A;
+    padding: 200px 0;
 }
 button {
   font-family: "Roboto";
@@ -129,9 +125,11 @@ button {
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding: 5px 20px;
 }
 .contact_link {
   list-style-type: none;
+  padding: 20px;
 }
 .information {
     font-family: 'Roboto';
@@ -204,9 +202,10 @@ span {
   color: #2196F3;
 }
 .header_contacts {
+
   display: flex;
   justify-content: space-between;
-  width: 250px;
+  width: 300px;
   align-items: center;
   margin-left: 300px;
 }
@@ -216,9 +215,33 @@ span {
   width: 280px;
   align-items:center;
 }
-.flex-box {
+
+.contact_links {
+  display: flex;
+  justify-content:space-between;
+  width: 300px;
+  align-items:center;
+  
+}
+.header_contacts a {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.02em;
+
+ color: #757575;
+ text-decoration: none;
+ 
+}
+.header_contacts a:hover {
+   cursor: pointer;
+   color:#2196F3;
+}
+p {
   display: flex;
   justify-content: space-between;
-  width: 160px;
-  flex-direction: row;
-}
+  width: 1170px;
+  align-items:center;
+} 
