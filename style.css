@@ -23,6 +23,7 @@
   display:flex;
   justify-content: space-between;
   width: 1170px;
+  margin: 0 75px;
 }
 .block-about {
   font-family: 'Roboto';
@@ -36,11 +37,8 @@
   
   color: #757575;
   display:inline-block;
-  justify-content: space-between;
-  width: 1170px;
-  align-items:center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  width: 270px; 
+  margin: 15px 10px;
 }
 
 .header_logo1 {
@@ -153,19 +151,29 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color: #212121;
+margin:14px;
 }
 h3 {
     list-style-type: none;
 }
-h2 {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-letter-spacing: 0.03em;
 
-color: #212121;
+.work_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #212121;
+  
+}
+.work_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
 }
 .card h3 {
     font-family: 'Roboto';
@@ -242,8 +250,22 @@ span {
 p {
   display: flex;
   justify-content: space-between;
-  width: 160px;
   flex-direction: row;
+}
+.box_title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.footer_list{
+  list-style: none;
 }
 
 
