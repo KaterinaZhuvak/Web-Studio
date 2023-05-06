@@ -342,12 +342,18 @@ span {
   margin: 0 auto;
   list-style-type: none;
 }
-.p_card {
-  background: #ffffff;
-  /* material shadow v1 */
 
+/* !мамин коментарий */
+.porfolio_cards .p_card:hover {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.p_card {
+  background: #ffffff;
+
+  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2); */
   border-radius: 0px 0px 4px 4px;
   width: 370px;
   padding-bottom: 30px;
@@ -357,4 +363,32 @@ span {
 .f_container {
   width: 1140px;
   margin: 16px 100px;
+}
+.text {
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
