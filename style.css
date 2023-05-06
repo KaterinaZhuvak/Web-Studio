@@ -339,7 +339,7 @@ span {
   justify-content: space-between;
   width: 1170px;
   flex-wrap: wrap;
-  margin: 0 360px;
+  margin: 0 auto;
   list-style-type: none;
 }
 .p_card {
@@ -354,7 +354,7 @@ span {
   margin-bottom: 30px;
 }
 
-.p_container {
+.f_container {
   width: 1140px;
   margin: 16px 100px;
 }
