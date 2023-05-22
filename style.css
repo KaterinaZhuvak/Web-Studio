@@ -1,12 +1,49 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .container {
   width: 1140px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
 }
+
+/* heder */
+.header {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header_contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 300px;
+}
+
 .header_block {
   display: flex;
   justify-content: space-between;
   width: 520px;
   align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .header_wraper {
   display: flex;
@@ -19,23 +56,23 @@
   width: 520px;
   align-items: center;
 }
-.blocks-about {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+
+/* about */
+.about {
+  margin-top: 94px;
 }
-.block-about {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  /* or 171% */
 
-  letter-spacing: 0.03em;
-
-  color: #757575;
-  display: inline-block;
-  margin: 15px 10px;
+.block-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.block-about h3 {
+  margin-top: 30px;
+}
+.block-about p {
+  margin-top: 10px;
 }
 
 .header_logo1 {
@@ -45,7 +82,6 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
 
   letter-spacing: 0.03em;
 }
@@ -80,6 +116,8 @@
 .contact_link a:hover {
   color: #2196f3;
 }
+
+/* promo */
 .promo h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -87,8 +125,6 @@
   font-size: 44px;
   line-height: 60px;
   margin: 0;
-  /* or 136% */
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -108,7 +144,6 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 188% */
 
   display: flex;
   align-items: center;
@@ -119,7 +154,7 @@ button {
   color: #ffffff;
   background-color: #2196f3;
   border-radius: 4px;
-  padding: 5px 20px;
+  padding: 5px 10px;
   border: 0;
 }
 .contact_link {
@@ -132,15 +167,10 @@ button {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
 
   letter-spacing: 0.03em;
 
   color: #757575;
-}
-
-h3 {
-  list-style-type: none;
 }
 
 .work_title {
@@ -167,7 +197,6 @@ h3 {
   font-weight: 500;
   font-size: 1em;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -180,7 +209,6 @@ h3 {
   font-weight: 400;
   font-size: 1em;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -193,13 +221,6 @@ h3 {
 }
 span {
   color: #2196f3;
-}
-.header_contacts {
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
-  align-items: center;
-  margin-left: 300px;
 }
 .ul_links {
   display: flex;
@@ -243,7 +264,7 @@ span {
 
   color: #212121;
 }
-
+/* footer */
 .footer_list {
   list-style: none;
 }
@@ -308,13 +329,30 @@ span {
 .footer_list {
   padding: 0;
 }
+
+/* ! Portfolio */
+.button_container {
+  width: 600px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .portfolio_buttons {
+  display: flex;
+  width: 575px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.portfolio_ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  padding: 16px;
-  margin: 16px auto;
+  padding: 6px;
+  margin: 8px;
   border-width: 0;
 }
 .portfolio_button button {
@@ -340,7 +378,6 @@ span {
   list-style-type: none;
 }
 
-/* !коментарий */
 .porfolio_cards .p_card:hover {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -371,7 +408,6 @@ h3 {
   font-weight: 700;
   font-size: 1em;
   line-height: 36px;
-  /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
 
@@ -383,7 +419,6 @@ p {
   font-weight: 400;
   font-size: 1em;
   line-height: 30px;
-  /* identical to box height, or 188% */
 
   letter-spacing: 0.03em;
 
@@ -401,4 +436,44 @@ p {
   height: 100%;
   margin: 0 auto;
   padding: 200px 0;
+}
+.work-item {
+  width: 370px;
+  height: 294px;
+}
+.work-item .working {
+  object-fit: cover;
+}
+.card {
+  background-color: #f5f4fa;
+  object-fit: cover;
+}
+.list_item {
+  width: 270px;
+  height: 368px;
+  transition-property: transform;
+}
+.list_item:hover {
+  transform: scale(1.05);
+}
+.list_item img {
+  object-fit: fill;
+}
+.p_card {
+  width: 370px;
+  height: 404px;
+  transition-property: transform;
+}
+.p_card:hover {
+  transform: scale(1.05);
+}
+.p_card img {
+  object-fit: fill;
+}
+.future-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  height: 120px;
 }
