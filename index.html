@@ -11,6 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>WebStudio</title>
   </head>
@@ -36,13 +40,14 @@
           </nav>
         </div>
         <div class="header_contacts">
-          <img src="./img/envelope.svg" alt="envelope" />
-          <a class="header_link" href="mailto:info@devstudio.com">
+          <a class="header_link" href="mailto:info@devstudio.com"
+            ><img src="./img/envelope.svg" alt="envelope" />
             info@devstudio.com</a
           >
 
-          <img src="./img/smartphone.svg" alt="smartphone" />
-          <a class="header_link" href="tel:+380961111111">+380961111111</a>
+          <a class="header_link" href="tel:+380961111111">
+            <img src="./img/smartphone.svg" alt="smartphon" />+380961111111</a
+          >
         </div>
       </div>
     </header>
@@ -104,7 +109,7 @@
       </ul>
     </section>
 
-    <section class="work">
+    <section class="work animate__animated animate__pulse animate__slow">
       <div class="container">
         <h2 class="work_title">Чим ми займаємося</h2>
         <ul class="work_list">
@@ -124,7 +129,7 @@
     <section class="card">
       <div class="card_conteiner">
         <h2 class="box_title">Наша команда</h2>
-        <ul class="work_list">
+        <ul class="work_list animate__animated animate__tada animate__slow">
           <li class="list_item">
             <img src="./img/игорь.jpeg" alt="staff" />
             <h3>Ігор Дем’яненко</h3>

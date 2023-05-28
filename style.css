@@ -231,6 +231,10 @@ button {
 
   color: #212121;
 }
+.header_link > img {
+  display: inline-block;
+  margin-right: 10px;
+}
 .card p {
   font-family: "Roboto";
   font-style: normal;
@@ -313,9 +317,13 @@ span {
   margin: 30px;
   transition-property: transform;
   padding-bottom: 30px;
+  perspective-origin: top left;
 }
+
 .list_item:hover {
   transform: scale(1.05);
+  transition-duration: 1s;
+  transform: rotate3d(2, 2, 2, 60deg);
 }
 .list_item p {
   padding-bottom: 74px;
@@ -388,7 +396,6 @@ span {
 }
 .portfolio_buttons {
   display: flex;
-  width: 575px;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -400,7 +407,7 @@ span {
   align-items: center;
   list-style-type: none;
   padding: 6px;
-  margin: 8px;
+  margin: 0 auto;
   border-width: 0;
 }
 .portfolio_button button {
@@ -501,9 +508,12 @@ p {
   width: 370px;
   height: 404px;
   transition-property: transform;
+  perspective-origin: top left;
 }
 .p_card:hover {
   transform: scale(1.05);
+  transition-duration: 1s;
+  transform: rotate3d(2, 2, 2, 60deg);
 }
 .p_card img {
   object-fit: fill;
