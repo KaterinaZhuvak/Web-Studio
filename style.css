@@ -455,8 +455,8 @@ span {
 }
 
 .f_container {
-  width: 1140px;
-  margin: 16px 100px;
+  display: inline-block;
+  margin-left: 215px;
 }
 .text {
   padding-bottom: 20px;
@@ -568,4 +568,68 @@ p {
 .card-link a:hover path {
   background-color: #2196f3;
   fill: #ffffff;
+}
+.clients-container {
+  margin-top: 127px;
+  margin-bottom: 94px;
+}
+.clients-list {
+  display: flex;
+  width: 1170px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.clients-item a {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin: 0 30px;
+  padding: 25px 61px;
+  width: 170px;
+}
+.clients-item a:hover,
+.clients-item a:hover path {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.footer_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+.footer-link a:hover,
+.footer-link a:hover path {
+  background-color: #2196f3;
+}
+
+.f-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 206px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.join {
+  display: block;
+  width: 206px;
+  margin-top: -100px;
+  margin-left: 516px;
 }
