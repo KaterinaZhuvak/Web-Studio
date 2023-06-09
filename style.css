@@ -378,9 +378,7 @@ span {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-
   color: #ffffff;
-  margin: 0;
 }
 
 .footer {
@@ -594,7 +592,7 @@ p {
   fill: #2196f3;
   border-color: #2196f3;
 }
-.footer_title {
+.join_title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -610,6 +608,7 @@ p {
   align-items: center;
   width: 44px;
   height: 44px;
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
   margin: 0 10px;
 }
@@ -630,6 +629,12 @@ p {
 .join {
   display: block;
   width: 206px;
-  margin-top: -100px;
+  margin-top: -115px;
   margin-left: 516px;
+}
+hr {
+  margin: 0;
+}
+.header_link i:hover {
+  color: #2196f3;
 }
