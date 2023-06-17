@@ -1,0 +1,135 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.header {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+}
+.header_link i:hover {
+  color: #2196f3;
+}
+.header {
+  animation: backInRight 2s;
+}
+.header_contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+span {
+  color: #2196f3;
+}
+.header_block {
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 520px;
+  align-items: center;
+  height: 80px;
+  box-sizing: border-box;
+}
+.header_wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_left {
+  display: flex;
+  justify-content: space-between;
+  width: 520px;
+  align-items: center;
+}
+.header_link > img {
+  display: inline-block;
+  margin-right: 10px;
+}
+.header_link {
+  list-style-type: none;
+}
+.header_link a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.header_link a:hover {
+  color: #2196f3;
+}
+.header_logo1 {
+  color: #000000;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+}
+.header_logo1 span {
+  color: #2196f3;
+  width: 145px;
+  height: 31px;
+}
+.header_contacts a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+  padding: 0 28px 0 0px;
+}
+.header_contacts a:hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+.contact_link a {
+  text-decoration: none;
+  color: #757575;
+}
+
+.contact_link a:hover {
+  color: #2196f3;
+}
+.ul_links {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  align-items: center;
+}
+
+.ul_links {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  align-items: center;
+}

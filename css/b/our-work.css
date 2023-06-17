@@ -1,0 +1,49 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.our-work {
+  animation: pulse;
+}
+.work_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.work_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  margin: 30px auto;
+  width: 1170px;
+}
+.work_list .work-item .working {
+  object-fit: cover;
+}
+.working img {
+  display: block;
+  width: 100%;
+  margin: 0 30px;
+}

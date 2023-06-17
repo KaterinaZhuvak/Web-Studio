@@ -1,0 +1,140 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.button_container {
+  width: 600px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.portfolio_ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 6px;
+  margin: 0 auto;
+  border-width: 0;
+}
+.portfolio_button button {
+  font-family: "Roboto";
+  background-color: #f5f4fa;
+  color: #000000;
+  padding: 7px 22px;
+  margin: 8px;
+  border-radius: 5%;
+  border: 0;
+}
+.portfolio_button button:hover {
+  cursor: pointer;
+  background: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.porfolio_cards {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.porfolio_cards .p_card:hover {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.p_card {
+  background: #ffffff;
+
+  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2); */
+  border-radius: 0px 0px 4px 4px;
+  width: 370px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.text {
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.text h3 {
+  font-size: 1rem;
+}
+.text p {
+  font-size: 1rem;
+}
+
+.work-item {
+  width: 370px;
+  margin: 0 30px;
+}
+
+.p_card {
+  width: 370px;
+  height: 404px;
+  transition-property: transform;
+  perspective-origin: top left;
+}
+.p_card:hover {
+  transform: scale(1.05);
+  transition-duration: 1s;
+  transform: rotate3d(2, 2, 2, 60deg);
+}
+.p_card img {
+  object-fit: fill;
+}
+
+hr {
+  margin: 0;
+}

@@ -1,0 +1,57 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.clients-container {
+  margin-top: 127px;
+  margin-bottom: 94px;
+}
+
+.box_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  width: 1170px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  list-style-type: none;
+}
+.clients-item a {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin: 0 30px;
+  padding: 25px 61px;
+  width: 170px;
+}
+.clients-item a:hover,
+.clients-item a:hover path {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
