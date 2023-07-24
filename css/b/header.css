@@ -20,6 +20,8 @@ img {
   width: 1140px;
   margin-left: auto;
   margin-right: auto;
+  animation: backInRight 2s;
+  background-color: #fff;
 }
 .container {
   margin-left: auto;
@@ -29,9 +31,7 @@ img {
 .header_link i:hover {
   color: #2196f3;
 }
-.header {
-  animation: backInRight 2s;
-}
+
 .header_contacts {
   display: flex;
   flex-direction: row;

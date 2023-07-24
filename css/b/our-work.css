@@ -42,8 +42,37 @@ img {
 .work_list .work-item .working {
   object-fit: cover;
 }
+
 .working img {
-  display: block;
+  height: 100%;
   width: 100%;
   margin: 0 30px;
+}
+.work-img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 30px;
+}
+
+.work-img > .working-p {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  width: 370px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+  color: #fff;
 }
