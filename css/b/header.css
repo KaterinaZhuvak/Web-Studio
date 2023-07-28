@@ -17,13 +17,15 @@ img {
   max-width: 100%;
 }
 .header {
-  width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
+  position: fixed;
+  z-index: 20;
+  width: 1440px;
+
   animation: backInRight 2s;
   background-color: #fff;
 }
 .container {
+  width: 1140px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 94px;
@@ -54,6 +56,8 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 115px;
+  margin-right: 115px;
 }
 .header_left {
   display: flex;
