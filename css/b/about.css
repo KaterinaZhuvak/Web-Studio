@@ -23,7 +23,7 @@ img {
   margin-right: auto;
   width: 1170px;
 }
-.information {
+.info {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -71,4 +71,7 @@ img {
   display: block;
   padding: 25px 100px;
   width: 100%;
+}
+.about-us {
+  background: #ebebeb;
 }
