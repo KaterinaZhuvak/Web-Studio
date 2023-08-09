@@ -19,7 +19,7 @@ img {
 .header {
   position: fixed;
   z-index: 20;
-  width: 1440px;
+  width: 100%;
   top: 0;
   animation: backInRight 2s;
   background-color: #fff;
