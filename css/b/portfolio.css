@@ -47,8 +47,16 @@ img {
   color: #000000;
   padding: 7px 22px;
   margin: 8px;
-  border-radius: 5%;
+  border-radius: 4px;
   border: 0;
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
 }
 .portfolio_button button:hover {
   cursor: pointer;
@@ -125,11 +133,17 @@ p {
   height: 404px;
   transition-property: transform;
   perspective-origin: top left;
+  position: relative;
+  transition: 0.5s;
+  border: 1px solid #eee;
 }
 .p_card:hover {
   transform: scale(1.05);
   transition-duration: 1s;
   transform: rotate3d(2, 2, 2, 60deg);
+}
+.p_card:hover .sit-overlay {
+  opacity: 1;
 }
 .p_card img {
   object-fit: fill;
@@ -137,4 +151,22 @@ p {
 
 hr {
   margin: 0;
+  border: 1px solid gray;
+  width: 100%;
+}
+.sit-overlay {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.54px;
+  background: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 64px 24px;
+  opacity: 0;
+  transition: 0.5s;
 }
