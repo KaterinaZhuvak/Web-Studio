@@ -1082,30 +1082,46 @@
         </button>
         <h3 class="form-title">Залиште свої дані, ми вам передзвонимо</h3>
         <form action="">
-          <label for="name">Ім'я</label>
-          <div class="input">
-            <i class="fa-solid fa-user" style="color: #212121"></i>
-            <input type="name" name="name" />
+          <div class="modal-block">
+            <div class="label">
+              <label for="name">Ім'я</label>
+            </div>
+            <div class="form-input">
+              <i class="fa-solid fa-user" style="color: #212121"></i>
+              <input type="name" name="name" />
+            </div>
           </div>
-          <label for="telephone">Телефон</label>
-          <div class="input">
-            <i class="fa-solid fa-phone" style="color: #212121"></i>
-            <input type="telephone" name="telephone" required />
+          <div class="modal-block">
+            <div class="label">
+              <label for="telephone">Телефон</label>
+            </div>
+            <div class="input">
+              <i class="fa-solid fa-phone" style="color: #212121"></i>
+              <input type="telephone" name="telephone" required />
+            </div>
           </div>
-          <label for="email">Пошта</label>
-          <div class="input">
-            <i class="fa-solid fa-envelope" style="color: #212121"></i>
-            <input type="email" name="email" required />
+          <div class="modal-block">
+            <div class="label">
+              <label for="email">Пошта</label>
+            </div>
+            <div class="input">
+              <i class="fa-solid fa-envelope" style="color: #212121"></i>
+              <input type="email" name="email" required />
+            </div>
           </div>
-          <label for="comment"> Коментар </label>
-          <textarea
-            name="comment"
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Введіть текст"
-          ></textarea>
-          <input type="checkbox" />
+          <div class="modal-block">
+            <div class="label">
+              <label for="comment">Коментар</label>
+            </div>
+            <textarea
+              name="comment"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Введіть текст"
+            ></textarea>
+            <input type="checkbox" content />
+          </div>
           <button class="model-btn">Відправити</button>
         </form>
       </div>
