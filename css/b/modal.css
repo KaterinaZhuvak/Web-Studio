@@ -109,7 +109,7 @@ label {
   padding: 10px 52px;
   color: #ffff;
   margin-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .form-title {
   color: #212121;
@@ -127,16 +127,13 @@ label {
   margin-top: 20px;
   margin-bottom: 12px;
 }
-.modal-block {
-  margin-left: 40px;
-}
+
 .label {
   margin-bottom: 4px;
 }
 .form-input {
   display: flex;
   gap: 10px;
-  margin-bottom: 10px;
   padding: 11px 0 11px 12px;
   width: 448px;
   height: 40px;
@@ -144,9 +141,12 @@ label {
   border-radius: 4px;
   transition: 0.3s;
 }
+.form-input:hover {
+  border-color: #2196f3;
+  color: #2196f3;
+}
+
 input {
-  /* width: 448px;
-  height: 40px; */
   width: 100%;
   height: 100%;
   border: none;
@@ -170,7 +170,7 @@ input {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 input[type="checkbox"] {
   width: 16px;
