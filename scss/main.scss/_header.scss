@@ -31,7 +31,7 @@ img {
   margin-bottom: 94px;
 }
 .header_link i:hover {
-  color: #2196f3;
+  color: $blue;
 }
 
 .header_contacts {
@@ -41,7 +41,7 @@ img {
   align-items: center;
 }
 span {
-  color: #2196f3;
+  color: $blue;
 }
 .header_block {
   margin-right: 10px;
@@ -81,13 +81,13 @@ span {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: $black;
 }
 .header_link a:hover {
-  color: #2196f3;
+  color: $blue;
 }
 .header_logo1 {
-  color: #000000;
+  color: $simple-black;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -97,7 +97,7 @@ span {
   letter-spacing: 0.03em;
 }
 .header_logo1 span {
-  color: #2196f3;
+  color: $blue;
   width: 145px;
   height: 31px;
 }
@@ -108,21 +108,21 @@ span {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: $gray;
   text-decoration: none;
   padding: 0 28px 0 0px;
 }
 .header_contacts a:hover {
   cursor: pointer;
-  color: #2196f3;
+  color: $blue;
 }
 .contact_link a {
   text-decoration: none;
-  color: #757575;
+  color:$gray;
 }
 
 .contact_link a:hover {
-  color: #2196f3;
+  color:$blue;
 }
 .ul_links {
   display: flex;

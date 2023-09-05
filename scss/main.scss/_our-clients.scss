@@ -30,7 +30,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: $black;
   margin-bottom: 50px;
 }
 .clients-list {
@@ -44,14 +44,15 @@ img {
 .clients-item a {
   display: block;
   box-sizing: border-box;
-  border: 1px solid #afb1b8;
+  border: 1px solid $border-grey;
   border-radius: 4px;
   margin: 0 30px;
   padding: 25px 61px;
   width: 170px;
 }
 .clients-item a:hover,
-.clients-item a:hover path {
-  fill: #2196f3;
-  border-color: #2196f3;
+.clients-item a:hover path{
+  fill: $blue;
+  border-color:$blue ;
 }
+

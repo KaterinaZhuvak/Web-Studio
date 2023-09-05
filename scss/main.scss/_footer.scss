@@ -1,5 +1,5 @@
 .footer {
-  background: #2f303a;
+  background: $footer-black;
 }
 .f_container {
   display: inline-block;
@@ -12,7 +12,7 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: $white;
 }
 
 .footer_list {
@@ -42,7 +42,7 @@
   line-height: 24px;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: $white;
   margin: 0;
 }
 .footer > h3 > span {
@@ -52,8 +52,7 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-
-  color: #2196f3;
+  color: $blue;
 }
 
 .footer {
@@ -73,7 +72,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $white;
 }
 .f-social {
   display: flex;
@@ -96,5 +95,5 @@
 }
 .footer-link a:hover,
 .footer-link a:hover path {
-  background-color: #2196f3;
+  background-color: $blue;
 }

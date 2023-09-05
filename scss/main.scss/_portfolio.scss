@@ -43,13 +43,13 @@ img {
 }
 .portfolio_button button {
   font-family: "Roboto";
-  background-color: #f5f4fa;
-  color: #000000;
+  background-color:$light-gray;
+  color: $simple-black;
   padding: 7px 22px;
   margin: 8px;
   border-radius: 4px;
   border: 0;
-  color: #212121;
+  color: $black;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -60,8 +60,8 @@ img {
 }
 .portfolio_button button:hover {
   cursor: pointer;
-  background: #2196f3;
-  color: #ffffff;
+  background: $blue;
+  color: $white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -80,7 +80,7 @@ img {
 }
 
 .p_card {
-  background: #ffffff;
+  background: $white;
 
   /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2); */
@@ -103,7 +103,7 @@ h3 {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: $black;
 }
 p {
   font-family: "Roboto";
@@ -114,7 +114,7 @@ p {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: $grey;
 }
 .text h3 {
   font-size: 1rem;
@@ -135,7 +135,7 @@ p {
   perspective-origin: top left;
   position: relative;
   transition: 0.5s;
-  border: 1px solid #eee;
+  border: 1px solid $border-white;
 }
 .p_card:hover {
   transform: scale(1.05);
@@ -155,7 +155,7 @@ hr {
   width: 100%;
 }
 .sit-overlay {
-  color: #fff;
+  color: $white;
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
@@ -170,19 +170,6 @@ hr {
   opacity: 0;
   transition: 0.5s;
 }
-/* .line {
-  border-radius: 2px;
-  background: #2196f3;
-  width: 47px;
-  height: 4px;
-} */
-/* .line:hover ::before {
-  content: "";
-  opacity: 0;
-}
-.line:hover ::after {
-  opacity: 1;
-} */
 
 .header_link::before,
 .header_link::after {
@@ -191,11 +178,10 @@ hr {
   height: 4px;
   background-size: contain;
   border-radius: 2px;
-  background: #2196f3;
+  background: $blue;
   margin-top: 25px;
   margin-bottom: 0;
-  /* display: flex;
-  align-items: center; */
+
 }
 .header_link::after {
   display: none;
@@ -204,7 +190,7 @@ hr {
 
 .header_link:hover::after {
   display: block;
-  background: #2196f3;
+  background: $blue;
 }
 #footer {
   scroll-behavior: smooth;

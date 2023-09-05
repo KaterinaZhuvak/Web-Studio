@@ -29,7 +29,7 @@ img {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: $grey;
 }
 
 .block-list {
@@ -48,7 +48,7 @@ img {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: $black;
   margin-top: 20px;
 }
 .block-about p {
@@ -58,13 +58,13 @@ img {
   font-style: normal;
   line-height: 25px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: $grey;
 }
 .future-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f5f4fa;
+  background-color: $light-grey;
   width: 270px;
 }
 .f_img {
@@ -73,5 +73,5 @@ img {
   width: 100%;
 }
 .about-us {
-  background: #ebebeb;
+  background:$white ;
 }

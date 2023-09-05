@@ -15,7 +15,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: $black;
 }
 
 .card p {
@@ -28,7 +28,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: $gray;
   margin: 0;
 }
 .card img {
@@ -36,7 +36,7 @@
 }
 
 .card_conteiner {
-  background-color: #f5f4fa;
+  background-color: $light-gray;
   padding: 94px 195px;
 }
 .box_title {
@@ -48,11 +48,11 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: $black;
   margin-bottom: 50px;
 }
 .list_item {
-  background: #ffffff;
+  background: $white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -96,6 +96,6 @@
 }
 .card-link a:hover,
 .card-link a:hover path {
-  background-color: #2196f3;
-  fill: #ffffff;
+  background-color: $blue;
+  fill: $white;
 }
