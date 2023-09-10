@@ -1,4 +1,4 @@
-.section_card {
+.card__list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,6 @@
   font-weight: 500;
   font-size: 1em;
   line-height: 19px;
-
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -35,11 +34,11 @@
   list-style-type: none;
 }
 
-.card_conteiner {
-  background-color: $light-gray;
+.card__conteiner {
+  background-color: $light-grey;
   padding: 94px 195px;
 }
-.box_title {
+.card__title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -51,7 +50,7 @@
   color: $black;
   margin-bottom: 50px;
 }
-.list_item {
+.card__item {
   background: $white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -64,21 +63,21 @@
   list-style-type: none;
 }
 
-.list_item:hover {
+.card__item:hover {
   transform: scale(1.05);
   transition-duration: 1s;
   transform: rotate3d(2, 2, 2, 60deg);
 }
-.list_item p {
+.card__item p {
   padding-bottom: 10px;
 }
-.list_item h3 {
+.card__item h3 {
   margin-top: 30px;
 }
-.list_item img {
+.card__item img {
   object-fit: fill;
 }
-.social-links {
+.card__social-links {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,7 +85,7 @@
   margin: 16px 32px 30px 32px;
   list-style-type: none;
 }
-.card-link a {
+.card__link a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,8 +93,8 @@
   height: 44px;
   border-radius: 100%;
 }
-.card-link a:hover,
-.card-link a:hover path {
+.card__link a:hover,
+.card__link a:hover path {
   background-color: $blue;
   fill: $white;
 }

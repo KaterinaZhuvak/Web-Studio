@@ -1,11 +1,11 @@
 .footer {
   background: $footer-black;
 }
-.f_container {
+.f__container {
   display: inline-block;
   margin-left: 215px;
 }
-.footer_title {
+.footer__title {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -15,7 +15,7 @@
   color: $white;
 }
 
-.footer_list {
+.footer__list {
   list-style: none;
 }
 .footer_list {
@@ -23,7 +23,7 @@
   margin-top: 20px;
 }
 
-.footer_item a {
+.footer__item a {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -34,7 +34,7 @@
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.footer_item h4 {
+.footer__item h4 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -64,7 +64,7 @@
   margin-top: -115px;
   margin-left: 516px;
 }
-.join_title {
+.join__title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -74,7 +74,7 @@
   text-transform: uppercase;
   color: $white;
 }
-.f-social {
+.f__social {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +83,7 @@
   margin-left: 20px;
   margin-right: 20px;
 }
-.footer-link a {
+.footer__link a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +93,7 @@
   border-radius: 100%;
   margin: 0 10px;
 }
-.footer-link a:hover,
-.footer-link a:hover path {
+.footer__link a:hover,
+.footer__link a:hover path {
   background-color: $blue;
 }

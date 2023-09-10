@@ -23,7 +23,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.portfolio_buttons {
+.portfolio__buttons {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +32,7 @@ img {
   margin-right: auto;
   margin-bottom: 30px;
 }
-.portfolio_ul {
+.portfolio__ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,9 +41,9 @@ img {
   margin: 0 auto;
   border-width: 0;
 }
-.portfolio_button button {
+.portfolio__button button {
   font-family: "Roboto";
-  background-color:$light-gray;
+  background-color:$light-grey;
   color: $simple-black;
   padding: 7px 22px;
   margin: 8px;
@@ -58,14 +58,14 @@ img {
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
 }
-.portfolio_button button:hover {
+.portfolio__button button:hover {
   cursor: pointer;
   background: $blue;
   color: $white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.porfolio_cards {
+.porfolio__cards {
   display: flex;
   justify-content: space-between;
   width: 1170px;
@@ -74,12 +74,12 @@ img {
   list-style-type: none;
 }
 
-.porfolio_cards .p_card:hover {
+.porfolio__cards .p__card:hover {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.p_card {
+.p__card {
   background: $white;
 
   /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -114,7 +114,7 @@ p {
 
   letter-spacing: 0.03em;
 
-  color: $grey;
+  color: $gray;
 }
 .text h3 {
   font-size: 1rem;
@@ -128,7 +128,7 @@ p {
   margin: 0 30px;
 }
 
-.p_card {
+.p__card {
   width: 370px;
   height: 404px;
   transition-property: transform;
@@ -137,15 +137,15 @@ p {
   transition: 0.5s;
   border: 1px solid $border-white;
 }
-.p_card:hover {
+.p__card:hover {
   transform: scale(1.05);
   transition-duration: 1s;
   transform: rotate3d(2, 2, 2, 60deg);
 }
-.p_card:hover .sit-overlay {
+.p__card:hover .portfolio__overlay {
   opacity: 1;
 }
-.p_card img {
+.p__card img {
   object-fit: fill;
 }
 
@@ -154,7 +154,7 @@ hr {
   border: 1px solid gray;
   width: 100%;
 }
-.sit-overlay {
+.portfolio__overlay {
   color: $white;
   font-family: Roboto;
   font-size: 18px;
@@ -171,27 +171,4 @@ hr {
   transition: 0.5s;
 }
 
-.header_link::before,
-.header_link::after {
-  content: "";
-  width: 47px;
-  height: 4px;
-  background-size: contain;
-  border-radius: 2px;
-  background: $blue;
-  margin-top: 25px;
-  margin-bottom: 0;
 
-}
-.header_link::after {
-  display: none;
-  margin-bottom: -30px;
-}
-
-.header_link:hover::after {
-  display: block;
-  background: $blue;
-}
-#footer {
-  scroll-behavior: smooth;
-}

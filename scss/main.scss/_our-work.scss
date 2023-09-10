@@ -16,10 +16,10 @@ img {
   display: block;
   max-width: 100%;
 }
-.our-work {
+.our__work {
   animation: pulse;
 }
-.work_title {
+.work__title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -29,40 +29,41 @@ img {
   letter-spacing: 0.03em;
   color: $black;
 }
-.work_list {
+.work__list {
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 auto;
+  margin: 0 auto;
   width: 1170px;
+  margin-left:-60px;
 }
-.work_list .work-item .working {
+
+.work__list .work__item .work {
   object-fit: cover;
 }
 
-.working img {
-  height: 100%;
-  width: 100%;
+.work img {
+  height: 294px;
+  width: 370;
   margin: 0 30px;
 }
-.work-img {
+.work__img {
   height: 100%;
   width: 100%;
   position: relative;
   margin: 30px;
 }
 
-.work-img > .working-p {
+ .work__p {
   position: absolute;
   bottom: 0%;
   left: 0%;
   right: 0%;
   width: 370px;
-  padding-left: auto;
-  padding-right: auto;
   padding-top: 27px;
   padding-bottom: 27px;
+  margin-left: 30px;
   text-align: center;
   font-family: Roboto;
   font-size: 14px;

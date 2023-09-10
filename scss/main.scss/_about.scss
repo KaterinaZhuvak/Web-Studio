@@ -29,18 +29,18 @@ img {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: $grey;
+  color: $gray;
 }
 
-.block-list {
+.about__list {
   display: flex;
   justify-content: center;
 }
-.block-about {
+.about__block {
   width: 270px;
   margin: 0 30px;
 }
-.block-about h3 {
+.about__block h3 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -51,23 +51,23 @@ img {
   color: $black;
   margin-top: 20px;
 }
-.block-about p {
+.about__block p {
   font-family: "Roboto";
   margin-top: 10px;
   font-size: 0.88em;
   font-style: normal;
   line-height: 25px;
   letter-spacing: 0.03em;
-  color: $grey;
+  color: $gray;
 }
-.future-img {
+.about__image {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: $light-grey;
   width: 270px;
 }
-.f_img {
+.about__img {
   display: block;
   padding: 25px 100px;
   width: 100%;

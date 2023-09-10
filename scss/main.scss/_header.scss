@@ -34,7 +34,7 @@ img {
   color: $blue;
 }
 
-.header_contacts {
+.header__contacts {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -43,7 +43,7 @@ img {
 span {
   color: $blue;
 }
-.header_block {
+.header__block {
   margin-right: 10px;
   display: flex;
   justify-content: space-between;
@@ -52,27 +52,27 @@ span {
   height: 80px;
   box-sizing: border-box;
 }
-.header_wraper {
+.header__wraper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 115px;
   margin-right: 115px;
 }
-.header_left {
+.header__left {
   display: flex;
   justify-content: space-between;
   width: 520px;
   align-items: center;
 }
-.header_link > img {
+.header__link > img {
   display: inline-block;
   margin-right: 10px;
 }
-.header_link {
+.header__link {
   list-style-type: none;
 }
-.header_link a {
+.header__link a {
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
@@ -83,10 +83,10 @@ span {
 
   color: $black;
 }
-.header_link a:hover {
+.header__link a:hover {
   color: $blue;
 }
-.header_logo1 {
+.header__logo1 {
   color: $simple-black;
   font-family: "Raleway";
   font-style: normal;
@@ -96,12 +96,12 @@ span {
 
   letter-spacing: 0.03em;
 }
-.header_logo1 span {
+.header__logo1 span {
   color: $blue;
   width: 145px;
   height: 31px;
 }
-.header_contacts a {
+.header__contacts a {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -112,28 +112,62 @@ span {
   text-decoration: none;
   padding: 0 28px 0 0px;
 }
-.header_contacts a:hover {
+.header__contacts a:hover {
   cursor: pointer;
   color: $blue;
 }
-.contact_link a {
+.contact__link a {
   text-decoration: none;
   color:$gray;
 }
 
-.contact_link a:hover {
+.contact__link a:hover {
   color:$blue;
 }
-.ul_links {
+.header__list{
   display: flex;
   justify-content: space-between;
   width: 280px;
   align-items: center;
 }
 
-.ul_links {
+.header__list {
   display: flex;
   justify-content: space-between;
   width: 280px;
   align-items: center;
 }
+i {
+  margin: 0 10px;
+}
+.header__link::before,
+.header__link::after {
+    height: 4px;
+    background-size: contain;
+    border-radius: 2px;
+    background: $blue;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  .header__link::after {
+    display: none;
+  }
+
+ .header__link:hover::after {
+    display: block;
+      background: $blue;
+      }
+            .header_link::after {
+              display: none;
+              margin-bottom: -30px;
+            }
+      
+            .header_link:hover::after {
+              display: block;
+              background: $blue;
+            }
+      
+            #footer {
+              scroll-behavior: smooth;
+            }

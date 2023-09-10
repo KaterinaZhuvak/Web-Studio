@@ -16,12 +16,12 @@ img {
   display: block;
   max-width: 100%;
 }
-.clients-container {
+.clients__container {
   margin-top: 127px;
   margin-bottom: 94px;
 }
 
-.box_title {
+.clients__title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -33,7 +33,7 @@ img {
   color: $black;
   margin-bottom: 50px;
 }
-.clients-list {
+.clients__list {
   display: flex;
   width: 1170px;
   justify-content: center;
@@ -41,7 +41,7 @@ img {
   margin: 0 auto;
   list-style-type: none;
 }
-.clients-item a {
+.clients__item a {
   display: block;
   box-sizing: border-box;
   border: 1px solid $border-grey;
@@ -50,8 +50,8 @@ img {
   padding: 25px 61px;
   width: 170px;
 }
-.clients-item a:hover,
-.clients-item a:hover path{
+.clients__item a:hover,
+.clients__item a:hover path{
   fill: $blue;
   border-color:$blue ;
 }
