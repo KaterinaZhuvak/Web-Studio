@@ -80,8 +80,9 @@ span {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
+  position: relative;
   color: $black;
+  transition-duration: 0.5s;
 }
 .header__link a:hover {
   color: $blue;
@@ -150,24 +151,25 @@ i {
     margin-bottom: 0;
   }
 
-  .header__link::after {
-    display: none;
-  }
+ 
 
- .header__link:hover::after {
-    display: block;
-      background: $blue;
-      }
-            .header_link::after {
-              display: none;
-              margin-bottom: -30px;
+
+  .header__link a::after {
+    content: "";
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: -30px;
+    height: 4px;
+    transition-duration: 0.5s;
+    
             }
       
-            .header_link:hover::after {
-              display: block;
-              background: $blue;
-            }
+.header__link a:hover::after {
+  display: block;
+  background: $blue;
+   }
       
-            #footer {
-              scroll-behavior: smooth;
-            }
+  #footer {
+ scroll-behavior: smooth;
+  }
