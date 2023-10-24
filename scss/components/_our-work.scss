@@ -1,0 +1,110 @@
+.work {
+  animation: pulse;
+  @media (min-width: 480px) {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    display: none;
+  }
+  @media (min-width: 1200px) {
+    display: block;
+  }
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $black;
+  }
+  @media (min-width: 480px) {
+    display: none;
+  }
+  @media (min-width: 760px) {
+    display: none;
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1170px;
+    margin-left: -60px;
+    @media (min-width: 480px) {
+      display: none;
+    }
+    @media (min-width: 760px) {
+      display: none;
+    }
+    @media (min-width: 1200px) {
+      display: flex;
+    }
+  }
+  &__list &__item .work {
+    object-fit: cover;
+  }
+  & img {
+    height: 294px;
+    width: 370;
+    margin: 0 30px;
+    @media (min-width: 480px) {
+      display: none;
+    }
+    @media (min-width: 760px) {
+      display: none;
+    }
+    @media (min-width: 1200px) {
+      display: block;
+    }
+  }
+  &__img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 30px;
+    @media (min-width: 480px) {
+      display: none;
+    }
+    @media (min-width: 760px) {
+      display: none;
+    }
+    @media (min-width: 1200px) {
+      display: block;
+    }
+  }
+  &__p {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    width: 370px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin-left: 30px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.8);
+    color: $white;
+    @media (min-width: 480px) {
+      display: none;
+    }
+    @media (min-width: 760px) {
+      display: none;
+    }
+    @media (min-width: 1200px) {
+      display: block;
+    }
+  }
+}

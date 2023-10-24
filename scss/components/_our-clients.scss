@@ -1,0 +1,50 @@
+.clients {
+  margin-top: 127px;
+  margin-bottom: 94px;
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $black;
+    margin-bottom: 50px;
+  }
+  &__list {
+    display: flex;
+    // width: 1170px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    list-style-type: none;
+    gap: 30px;
+    @media (min-width: 480px) {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    @media (min-width: 1200px) {
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+  }
+  &__item a {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid $border-grey;
+    border-radius: 4px;
+    margin: 0 30px;
+    padding: 25px 61px;
+    width: 170px;
+  }
+  &__item a:hover,
+  &__item a:hover path {
+    fill: $blue;
+    border-color: $blue;
+  }
+}

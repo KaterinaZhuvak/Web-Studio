@@ -1,11 +1,4 @@
-@import "./main.scss/variables";
-@import "./main.scss/header";
-@import "./main.scss/promo";
-@import"./main.scss/about";
-@import"./main.scss/modal";
-@import"./main.scss/our-clients";
-@import "./main.scss/our-work";
-@import"./main.scss/card";
-@import"./main.scss/footer";
-@import"./main.scss/portfolio";
-
+@import "./utils/general", "./utils/variables", "./utils/mixin",
+  "./components/header", "./components/card", "./components/about",
+  "./components/footer", "./components/modal", "./components/our-clients",
+  "./components/our-work", "./components/promo", "./components/portfolio";

@@ -27,104 +27,120 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__wraper">
-        <div class="header__block">
-          <h2 class="header__logo1"><span>Web</span>Studio</h2>
-          <nav class="header__navigation">
-            <div class="header__links">
-              <ul class="header__list">
-                <li class="header__link">
-                  <a href="/">Студія</a>
-                </li>
-                <li class="header__link">
-                  <a href="./portfolio.html">Портфоліо</a>
-                </li>
-                <li class="header__link">
-                  <a href="/">Контакти</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-        <div class="header__contacts">
-          <a class="header__link" href="mailto:info@devstudio.com">
-            <i class="fa-regular fa-envelope fa-bounce"></i>info@devstudio.com
-          </a>
-          <a class="header__link" href="tel:+380961111111">
-            <i class="fa-solid fa-mobile-screen-button fa-bounce"></i>+38 096
-            111 11 11</a
-          >
+      <div class="container">
+        <div class="header__wraper">
+          <div class="header__block">
+            <h2 class="header__logo1">
+              <span class="header__span">Web</span>Studio
+            </h2>
+            <nav class="header__navigation">
+              <div class="header__links">
+                <ul class="header__list">
+                  <li class="header__link">
+                    <a href="/">Студія</a>
+                  </li>
+                  <li class="header__link">
+                    <a href="./portfolio.html">Портфоліо</a>
+                  </li>
+                  <li class="header__link">
+                    <a href="/">Контакти</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="header__contacts">
+            <a class="header__item" href="mailto:info@devstudio.com">
+              <i class="fa-regular fa-envelope fa-bounce"></i>info@devstudio.com
+            </a>
+            <a class="header__item" href="tel:+380961111111">
+              <i class="fa-solid fa-mobile-screen-button fa-bounce"></i>+38 096
+              111 11 11</a
+            >
+          </div>
+          <div class="header__humburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </header>
 
     <section class="animate__animated animate__backInRight promo">
       <div class="promo__overlay">
-        <h1>
-          ЕФЕКТИВНІ РІШЕННЯ <br />
-          ДЛЯ ВАШОГО БІЗНЕСУ
-        </h1>
-        <button
-          class="animate__animated animate__pulse open_modal promo__button--blue"
-        >
-          Замовити послугу
-        </button>
+        <div class="container">
+          <h1 class="promo__title">
+            ЕФЕКТИВНІ РІШЕННЯ <br />
+            ДЛЯ ВАШОГО БІЗНЕСУ
+          </h1>
+          <button
+            class="animate__animated animate__pulse open_modal promo__button--blue"
+          >
+            Замовити послугу
+          </button>
+        </div>
       </div>
     </section>
 
-    <section class="about_container">
-      <ul class="about__list">
-        <li class="about__block">
-          <div class="about__image">
-            <img class="about__img" src="./img/antenna 1.svg" alt="antena" />
-          </div>
-          <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-          <p class="about__information">
-            Ідейні міркування, і навіть початок повсякденної роботи з формування
-            позиції.
-          </p>
-        </li>
+    <!-- <section class="about">
+      <div class="container">
+        <ul class="about__list">
+          <li class="about__block">
+            <div class="about__image">
+              <img class="about__img" src="./img/antenna 1.svg" alt="antena" />
+            </div>
+            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="about__information">
+              Ідейні міркування, і навіть початок<br />
+              повсякденної роботи з формування <br />
+              позиції.
+            </p>
+          </li>
 
-        <li class="about__block">
-          <div class="about__image">
-            <img class="about__img" src="./img/clock 1.svg" alt="clock" />
-          </div>
-          <h3>ПУНКТУАЛЬНІСТЬ</h3>
-          <p class="about__information">
-            Завдання організації, особливо рамки і місце навчання кадрів тягне у
-            себе.
-          </p>
-        </li>
+          <li class="about__block">
+            <div class="about__image">
+              <img class="about__img" src="./img/clock 1.svg" alt="clock" />
+            </div>
+            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="about__information">
+              Завдання організації, особливо рамки <br />
+              і місце навчання кадрів тягне у себе.
+            </p>
+          </li>
 
-        <li class="about__block">
-          <div class="about__image">
-            <img class="about__img" src="./img/diagram 1.svg" alt="diagram" />
-          </div>
-          <h3>ПЛАНУВАННЯ</h3>
-          <p class="about__information">
-            Так само консультація з широким активом значною мірою зумовлює.
-          </p>
-        </li>
+          <li class="about__block">
+            <div class="about__image">
+              <img class="about__img" src="./img/diagram 1.svg" alt="diagram" />
+            </div>
+            <h3>ПЛАНУВАННЯ</h3>
+            <p class="about__information">
+              Так само консультація з широким <br />
+              активом значною мірою зумовлює.
+            </p>
+          </li>
 
-        <li class="about__block">
-          <div class="about__image">
-            <img
-              class="about__img"
-              src="./img/astronaut 1.svg"
-              alt="austronaut"
-            />
-          </div>
-          <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-          <p class="about__information">
-            Значимість цих проблем настільки очевидна, що реалізація планових
-            завдань.
-          </p>
-        </li>
-      </ul>
-    </section>
+          <li class="about__block">
+            <div class="about__image">
+              <img
+                class="about__img"
+                src="./img/astronaut 1.svg"
+                alt="austronaut"
+              />
+            </div>
+            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="about__information">
+              Значимість цих проблем настільки <br />
+              очевидна, що реалізація планових <br />
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section> -->
 
     <section
-      class="our__work work animate__animated animate__pulse animate__slow wow"
+      class="work work animate__animated animate__pulse animate__slow wow"
     >
       <div class="container">
         <h2 class="work__title">Чим ми займаємося</h2>
@@ -152,7 +168,7 @@
     </section>
 
     <section class="card">
-      <div class="card__conteiner">
+      <div class="container">
         <h2 class="card__title">Наша команда</h2>
         <ul
           class="card__list animate__animated animate__tada animate__slow wow"
@@ -606,8 +622,8 @@
       </div>
     </section>
 
-    <section class="our__clients">
-      <div class="clients__container">
+    <section class="clients">
+      <div class="container">
         <h2 class="clients__title">Постійні клієнти</h2>
         <ul class="clients__list">
           <li class="clients__item">
@@ -950,7 +966,7 @@
       </div>
     </section>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="f__container">
         <h3 class="footer__title"><span>Web</span>Studio</h3>
         <nav>
@@ -1080,8 +1096,8 @@
           </li>
         </ul>
       </div>
-    </footer>
-    <div class="overlay">
+    </footer> -->
+    <!-- <div class="overlay">
       <div class="modal">
         <button class="close_modal">
           <span class="cross">&times;</span>
@@ -1136,7 +1152,7 @@
           <button class="form__btn">Відправити</button>
         </form>
       </div>
-    </div>
+    </div>  -->
     <script src="./JS/wow.js"></script>
 
     <script
