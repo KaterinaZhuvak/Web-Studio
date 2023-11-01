@@ -18,6 +18,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: $black;
+    margin-bottom: 50px;
   }
   @media (min-width: 480px) {
     display: none;
@@ -67,7 +68,7 @@
     height: 100%;
     width: 100%;
     position: relative;
-    margin: 30px;
+    // margin: 30px;
     @media (min-width: 480px) {
       display: none;
     }

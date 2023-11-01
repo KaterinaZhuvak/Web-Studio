@@ -20,7 +20,7 @@
     margin: 0 auto;
     list-style-type: none;
     gap: 30px;
-    @media (min-width: 480px) {
+    @media (min-width: 320px) {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
@@ -35,13 +35,23 @@
     }
   }
   &__item a {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     border: 1px solid $border-grey;
     border-radius: 4px;
-    // margin: 0 30px;
-    padding: 25px 61px;
+    height: 92px;
     width: 170px;
+    @media (min-width: 320px) {
+      width: 210px;
+    }
+    @media (min-width: 768px) {
+      width: 226px;
+    }
+    @media (min-width: 1200px) {
+      width: 170px;
+    }
   }
   &__item a:hover,
   &__item a:hover path {
