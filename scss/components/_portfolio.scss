@@ -1,82 +1,153 @@
-.button_container {
-  width: 600px;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.portfolio__buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-}
-.portfolio__ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
-  padding: 6px;
-  margin: 0 auto;
-  border-width: 0;
-  margin-bottom: 96px;
-}
-.portfolio__button button {
-  font-family: "Roboto";
-  background-color: $light-grey;
-  color: $simple-black;
-  padding: 7px 22px;
-  margin: 8px;
-  border-radius: 4px;
-  border: 0;
-  color: $black;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px; /* 162.5% */
-  letter-spacing: 0.48px;
-}
-.portfolio__button button:hover {
-  cursor: pointer;
-  background: $blue;
-  color: $white;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.porfolio__cards {
-  display: flex;
-  justify-content: space-between;
-  width: 1170px;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  list-style-type: none;
+.portfolio {
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  &__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding: 6px;
+    margin: 0 auto;
+    border-width: 0;
+    margin-bottom: 96px;
+    @media (min-width: 480px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: start;
+      justify-content: start;
+      // width: 326px;
+      // height: 91px;
+    }
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+      width: 768px;
+      height: 80px;
+    }
+  }
+  &__button button {
+    font-family: "Roboto";
+    background-color: $light-grey;
+    color: $simple-black;
+    padding: 7px 22px;
+    margin: 8px;
+    border-radius: 4px;
+    border: 0;
+    color: $black;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
+  }
+  &__button button:hover {
+    cursor: pointer;
+    background: $blue;
+    color: $white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .portfolio__cards {
+    display: flex;
+    justify-content: space-between;
+    // width: 1170px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    @media (min-width: 320px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    @media (min-width: 1200px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+  .porfolio__cards .portfolio__card:hover {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .portfolio__card {
+    background: $white;
+    border-radius: 0px 0px 4px 4px;
+    width: 370px;
+    padding-bottom: 30px;
+    margin: 0 auto 96px auto;
+    height: 404px;
+    transition-property: transform;
+    perspective-origin: top left;
+    position: relative;
+    transition: 0.5s;
+    border: 1px solid $border-white;
+  }
+  .portfolio__card {
+    width: 370px;
+    height: 404px;
+    transition-property: transform;
+    perspective-origin: top left;
+    position: relative;
+    transition: 0.5s;
+    border: 1px solid $border-white;
+  }
+  // .portfolio__text h3 {
+  //   font-size: 1rem;
+  // }
+  // .portfolio__text p {
+  //   width: 370px;
+  //   margin: 0 30px;
+  //   font-size: 1rem;
+  // }
+
+  .portfolio__text {
+    padding-bottom: 20px;
+    padding-left: 24px;
+  }
+  .portfolio__card:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+    transform: rotate3d(2, 2, 2, 60deg);
+  }
+  .portfolio__card:hover .portfolio__overlay {
+    opacity: 1;
+  }
+  .portfolio__card img {
+    object-fit: fill;
+  }
+
+  .portfolio__overlay {
+    color: $white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.54px;
+    background: rgba(33, 150, 243, 0.9);
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 64px 24px;
+    opacity: 0;
+    transition: 0.5s;
+  }
 }
 
-.porfolio__cards .p__card:hover {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.p__card {
-  background: $white;
-
-  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2); */
-  border-radius: 0px 0px 4px 4px;
-  width: 370px;
-  padding-bottom: 30px;
-  margin: 0 auto 96px auto;
-}
-
-.text {
-  padding-bottom: 20px;
-  padding-left: 24px;
-}
 h3 {
   font-family: "Roboto";
   font-style: normal;
@@ -94,62 +165,6 @@ p {
   font-weight: 400;
   font-size: 1em;
   line-height: 30px;
-
   letter-spacing: 0.03em;
-
   color: $gray;
-}
-.text h3 {
-  font-size: 1rem;
-}
-.text p {
-  font-size: 1rem;
-}
-
-.work-item {
-  width: 370px;
-  margin: 0 30px;
-}
-
-.p__card {
-  width: 370px;
-  height: 404px;
-  transition-property: transform;
-  perspective-origin: top left;
-  position: relative;
-  transition: 0.5s;
-  border: 1px solid $border-white;
-}
-.p__card:hover {
-  transform: scale(1.05);
-  transition-duration: 1s;
-  transform: rotate3d(2, 2, 2, 60deg);
-}
-.p__card:hover .portfolio__overlay {
-  opacity: 1;
-}
-.p__card img {
-  object-fit: fill;
-}
-
-hr {
-  margin: 0;
-  border: 1px solid gray;
-  width: 100%;
-}
-.portfolio__overlay {
-  color: $white;
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0.54px;
-  background: rgba(33, 150, 243, 0.9);
-  position: absolute;
-  top: 0;
-  margin: 0;
-  padding: 64px 24px;
-  opacity: 0;
-  transition: 0.5s;
 }
